@@ -3,11 +3,17 @@ import mongoose from 'mongoose';
 
 const stripe = require('stripe')(process.env.STRIPE_SK);
 
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
+export const dynamic = 'force-dynamic';
+export const runtime = 'nodejs'; // If needed
+
+// Instead of config, add:
+export const maxDuration = 60; // or whatever limit you need
+
+// export const config = {
+//   api: {
+//     bodyParser: false,
+//   },
+// };
 
 
 export async function POST(req) {
