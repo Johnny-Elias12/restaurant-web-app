@@ -19,7 +19,7 @@ export default function Home() {
           <p>
             We Provide Good Quality Food To Your Family!
             Step into our family-owned restaurant, where each dish is a labor of love steeped 
-            in tradition. Since 2020, we've been serving up more than just food—we offer a taste 
+            in tradition. Since 2020, we&apos;ve been serving up more than just food—we offer a taste 
             of heritage and a warm embrace of home.
           </p>
           <p>
@@ -33,7 +33,7 @@ export default function Home() {
      
       <section className="text-center my-8" id="contact">
         <SectionHeaders 
-          subHeader={'Don\'t hesitate'} 
+          subHeader={'Don&apos;t hesitate'} 
           mainHeader={'Contact us'}
         />
         <div className="mt-8">
